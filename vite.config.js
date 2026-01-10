@@ -2,4 +2,8 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   base: '/js-vite-blackjack/',
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+  },
 });
